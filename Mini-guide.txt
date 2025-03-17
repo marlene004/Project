@@ -1,9 +1,11 @@
 POUR LANCER CE MINI-PROJET:
 .cd Project
 .cd mon-projet
+.npm install @jsonforms/react @jsonforms/core @jsonforms/material-renderers @mui/material @emotion/react @emotion/styled antd @ant-design/icons
 .npm start
 
 T0 SET-UP THIS PROJECT,DO THE FOLLOWING:
 .cd Project
 .cd mon-projet
+.npm install @jsonforms/react @jsonforms/core @jsonforms/material-renderers @mui/material @emotion/react @emotion/styled antd @ant-design/icons
 .npm start
