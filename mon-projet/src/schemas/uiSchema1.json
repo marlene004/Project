@@ -1,0 +1,47 @@
+{
+  "type": "Categorization",
+  "elements": [
+    {
+      "type": "Category",
+      "label": "Personal Info",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/personal/properties/firstName"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/personal/properties/lastName"
+        }
+      ]
+    },
+    {
+      "type": "Category",
+      "label": "Address",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/address/properties/street"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/address/properties/city"
+        }
+      ]
+    },
+    {
+      "type": "Category",
+      "label": "Contact",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/contact/properties/email"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/contact/properties/phone"
+        }
+      ]
+    }
+  ]
+}

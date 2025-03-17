@@ -1,0 +1,9 @@
+POUR LANCER CE MINI-PROJET:
+.cd Project
+.cd mon-projet
+.npm start
+
+T0 SET-UP THIS PROJECT,DO THE FOLLOWING:
+.cd Project
+.cd mon-projet
+.npm start

@@ -1,0 +1,29 @@
+{
+  "type": "Categorization",
+  "elements": [
+    {
+      "type": "Category",
+      "label": "Job Info",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/job/properties/title"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/job/properties/company"
+        }
+      ]
+    },
+    {
+      "type": "Category",
+      "label": "Experience",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/experience/properties/years"
+        }
+      ]
+    }
+  ]
+}

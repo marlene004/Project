@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "personal": {
+      "type": "object",
+      "properties": {
+        "firstName": { "type": "string", "title": "First Name" },
+        "lastName": { "type": "string", "title": "Last Name" }
+      }
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": { "type": "string", "title": "Street" },
+        "city": { "type": "string", "title": "City" }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "format": "email", "title": "Email" },
+        "phone": { "type": "string", "title": "Phone" }
+      }
+    }
+  }
+}

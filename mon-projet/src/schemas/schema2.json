@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "job": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "title": "Job Title" },
+        "company": { "type": "string", "title": "Company Name" }
+      }
+    },
+    "experience": {
+      "type": "object",
+      "properties": {
+        "years": { "type": "integer", "title": "Years of Experience" }
+      }
+    }
+  }
+}
