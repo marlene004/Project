@@ -9,3 +9,8 @@ T0 SET-UP THIS PROJECT,DO THE FOLLOWING:
 .cd mon-projet
 .npm install @jsonforms/react @jsonforms/core @jsonforms/material-renderers @mui/material @emotion/react @emotion/styled antd @ant-design/icons
 .npm start
+
+PRODUCTION BUILD:
+.npm run build
+.npm install-g serve
+.serve -s build/npx serve -s build
