@@ -28,7 +28,7 @@ const App: React.FC = () => {
             marginBottom: "20px"
           }}
         >
-          <h2> CYBERUN</h2>
+          <h2> BIENVENUE</h2>
           <Switch
             checked={darkMode}
             onChange={() => setDarkMode(!darkMode)}
