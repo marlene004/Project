@@ -10,7 +10,12 @@ T0 SET-UP THIS PROJECT,DO THE FOLLOWING:
 .npm install @jsonforms/react @jsonforms/core @jsonforms/material-renderers @mui/material @emotion/react @emotion/styled antd @ant-design/icons
 .npm start
 
-PRODUCTION BUILD:
+PRODUCTION BUILD/LANCER LE SERVEUR LOCALEMENT:
 .npm run build
 .npm install-g serve
 .serve -s build/npx serve -s build
+
+NB:
+- Le projet est basé sur le framework React et utilise JSON Forms pour la gestion des formulaires.  
+Pour voir directement voir le rendu de ce mini projet vous pouvez utiliser le lien suivant:
+https://project-jrsi.vercel.app
